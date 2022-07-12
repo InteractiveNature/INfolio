@@ -12,6 +12,7 @@ $breakpoint arguement choices:
 
 Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
 */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 *,
 *::after,
 *::before {
@@ -37,10 +38,10 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 a {
   text-decoration: none;
