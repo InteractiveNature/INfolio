@@ -2,7 +2,7 @@
 
 ## A Blazing Fast Multipage Portfolio Template for Developers 🚀
 
-## [Demo Link](https://dopefolio.netlify.app) 🔗
+## [Demo Link](https://interactivenature.github.io/INfolio/) 🔗
 
 <div align="center">
   <img src="https://i.postimg.cc/CxZXqhWM/ezgif-com-video-to-gif-1.gif" alt="Dopefolio Demo" width="100%" />
