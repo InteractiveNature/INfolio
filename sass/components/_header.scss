@@ -3,8 +3,8 @@
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #fff;
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0 10px 100px rgba(255, 255, 255, 0);
 
   &__content {
     display: flex;
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: rgb(255, 255, 255);
     transition: color .3s;
 
     &:hover {
@@ -33,7 +33,7 @@
     border-radius: 50px;
     overflow: visible;
     margin-right: 1.5rem;
-    background: $themeClrPrimary;
+    background: rgba(0, 0, 0, 0);
 
     @include respond(tab-port) {
       width: 4.5rem;
@@ -49,7 +49,7 @@
     display: block;
   }
   &__logo-sub {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
@@ -64,14 +64,14 @@
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: rgb(81, 81, 81);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s;
 
     &:hover {
-      color: $themeClrPrimary;
+      color: rgba(255, 255, 255, 0.637);
     }
     @include respond(tab-port) {
       padding: 3rem 1.8rem;
@@ -126,7 +126,7 @@
       font-size: 1.6rem;
       color: #333;
       text-align: right;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid rgb(238, 238, 238);
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;

@@ -114,11 +114,11 @@
 
   &--theme {
     background: $themeClrPrimary;
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
   &--theme-inv {
     color: $themeClrPrimary;
-    background: #fff;
+    background: rgb(255, 255, 255);
     border: 2px solid $themeClrPrimary;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px);

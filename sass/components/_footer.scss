@@ -1,6 +1,6 @@
 .main-footer {
   background: #000;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   &__upper {
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@
 
   &__short-desc {
     margin-top: 2rem;
-    color: #eee;
+    color: rgb(82, 82, 82);
     font-size: 1.5rem;
     line-height: 1.7;
   }
@@ -49,7 +49,7 @@
 
   &__lower {
     padding: 4rem 0;
-    border-top: 1px solid #444;
+    border-top: 1px solid rgb(255, 255, 255);
     color: #eee;
     font-size: 1.2rem;
     text-align: left;
