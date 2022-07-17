@@ -65,7 +65,7 @@ textarea {
 
 .heading-primary {
   font-size: 6rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 3px;
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
@@ -185,8 +185,8 @@ textarea {
   display: none; }
 
 .home-hero {
-  color: white;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/jpeg/PrincessIII22.jpg);
+  color: rgba(0, 0, 0, 0);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/jpeg/project-mockup-example.jpeg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -525,7 +525,7 @@ textarea {
     border-radius: 50px;
     overflow: visible;
     margin-right: 1.5rem;
-    background: rgba(0, 0, 0, 0); }
+    background: rgba(255, 0, 0, 0); }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;

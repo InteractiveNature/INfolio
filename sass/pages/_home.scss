@@ -1,11 +1,11 @@
 .home-hero {
-  color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0);
   background: linear-gradient(
       to right,
       rgba($themeClrPrimary, 0.8),
       rgba($themeClrPrimary, 0.8)
     ),
-    url(/assets/jpeg/PrincessIII22.jpg);
+    url(/assets/jpeg/project-mockup-example.jpeg);
   background-position: center;
 
   height: 100vh;
