@@ -186,7 +186,7 @@ textarea {
 
 .home-hero {
   color: rgba(0, 0, 0, 0);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/mov/Growths.2.mov);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/svg/gradient-BG.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -258,6 +258,7 @@ textarea {
         grid-template-columns: 1fr;
         grid-gap: 8rem; } }
     .about__content-title {
+      color: #fff;
       font-weight: 700;
       font-size: 2.8rem;
       margin-bottom: 3rem; }
@@ -500,7 +501,7 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
+  background: rgba(0, 0, 0, 0);
   background: rgba(0, 0, 0, 0);
   box-shadow: 0 10px 100px rgba(255, 255, 255, 0); }
   .header__content {
